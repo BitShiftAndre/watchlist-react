@@ -1,0 +1,58 @@
+.table-hover tbody tr .non-hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+label {
+  margin-right: 0.5em;
+  margin-bottom: 0;
+  margin-top: 0.5em;
+}
+
+.table-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.symbol.form-control {
+  width: 70%;
+}
+
+#footer-header {
+  padding: 8px;
+}
+
+ul {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  list-style-type: none;
+}
+li {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.symbol.form-control {
+  width: 65%;
+  max-width: 300px;
+}
+
+.table-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fas {
+  margin: auto;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.table td, .table th {
+  padding: .75rem;
+  border-top: 1px solid #dee2e6;
+  text-align: -webkit-center;
+}
